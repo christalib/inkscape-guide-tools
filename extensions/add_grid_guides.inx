@@ -4,8 +4,8 @@
 	<_name>Add Grid Guides</_name>
 	<id>samplify.gridmaker</id>
 
-	<dependency type="executable" location="extensions">add_grid_guides.py</dependency>
-	<dependency type="executable" location="extensions">inkex.py</dependency>
+	<dependency type="executable" location="inx">add_grid_guides.py</dependency>
+	<dependency type="executable" location="inx">inkex.py</dependency>
 
 	<param name="tab" type="notebook">
 		<page name="columns" _gui-text="Columns">
@@ -75,7 +75,7 @@
 	</effect>
 
 	<script>
-		<command reldir="extensions" interpreter="python">add_grid_guides.py</command>
+		<command location="inx" interpreter="python">add_grid_guides.py</command>
 	</script>
 
 </inkscape-extension>

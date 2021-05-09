@@ -1,7 +1,7 @@
 <inkscape-extension>
 	<_name>Add Centered Guides</_name>
 	<id>samplify.add_centered_guides</id>
-	<dependency type="executable" location="extensions">add_centered_guides.py</dependency>
+	<dependency type="executable" location="inx">add_centered_guides.py</dependency>
 
 		<param name="extension_description" type="description">Add guides through the center of the document</param>
 		<param name="include_hor_guide"  type="boolean"   _gui-text="Centered horizontal guide">true</param>
@@ -14,6 +14,6 @@
 		</effects-menu>
 	</effect>
 	<script>
-		<command reldir="extensions" interpreter="python">add_centered_guides.py</command>
+		<command location="inx" interpreter="python">add_centered_guides.py</command>
 	</script>
 </inkscape-extension>

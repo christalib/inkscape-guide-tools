@@ -1,3 +1,8 @@
+**Note about this fork**
+
+This fork has been updated for Inkscape 1.0.
+
+
 Inkscape guide tools
 ===================
 
@@ -19,7 +24,7 @@ Centered guides on the page:
 
 ### 2. Add margin guides to page or object
 
-With this extension you can add guides at a certain distance (_margin_) from the borders of the page or a (single) selected object. 
+With this extension you can add guides at a certain distance (_margin_) from the borders of the page or a (single) selected object.
 
 Margin guides to the page:
 
@@ -29,9 +34,9 @@ Margin guides to the bounding box of a selected object:
 
 ![Add margin guides](img/marginguides2.png)
 
-- Add them all at once for equal margins, or add different margins. 
-- Negative margins creates guides _outside_ the page/object borders ("bleed"). 
-- Zero margin guides (guides exactly on the border) of the page are not drawn - use **Edit > Guides around page** for that. 
+- Add them all at once for equal margins, or add different margins.
+- Negative margins creates guides _outside_ the page/object borders ("bleed").
+- Zero margin guides (guides exactly on the border) of the page are not drawn - use **Edit > Guides around page** for that.
 - Use any unit (pixels, mm, in, etc), independant of your page's units.
 
 ### 3. Add grid guides
@@ -60,7 +65,7 @@ _Limitation:_ The grid is calculated "inside out" - from the _column width_, gut
 
 ### 4. Remove selected guides
 
-Selectively remove all horizontal and/or vertical and/or angled (diagonal) guides. 
+Selectively remove all horizontal and/or vertical and/or angled (diagonal) guides.
 
 ![Remove selected guides](img/removeselectedguides.png)
 
