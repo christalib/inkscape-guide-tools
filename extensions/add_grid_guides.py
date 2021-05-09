@@ -158,22 +158,22 @@ class Grid_Guides(inkex.Effect):
                                      help='Alignment of the columns in relation to the document')
 
         self.arg_parser.add_argument('--column_offset',
-                                     type=int,
+                                     type=float,
                                      dest='column_offset', default=0,
                                      help='Offset distance from the left')
 
         self.arg_parser.add_argument('--columns',
-                                     type=int,
+                                     type=float,
                                      dest='columns', default=0,
                                      help='Number of columns')
 
         self.arg_parser.add_argument('--column_width',
-                                     type=int,
+                                     type=float,
                                      dest='column_width', default=0,
                                      help='Width of each column')
 
         self.arg_parser.add_argument('--column_gutter',
-                                     type=int,
+                                     type=float,
                                      dest='column_gutter', default=0,
                                      help='Spacing between columns')
 
@@ -205,22 +205,22 @@ class Grid_Guides(inkex.Effect):
                                      help='Alignment of rows in relation to the document')
 
         self.arg_parser.add_argument('--row_offset',
-                                     type=int,
+                                     type=float,
                                      dest='row_offset', default=0,
                                      help='Offset distance from the top')
 
         self.arg_parser.add_argument('--rows',
-                                     type=int,
+                                     type=float,
                                      dest='rows', default=0,
                                      help='Number of rows')
 
         self.arg_parser.add_argument('--row_height',
-                                     type=int,
+                                     type=float,
                                      dest='row_height', default=0,
                                      help='Width of each row')
 
         self.arg_parser.add_argument('--row_gutter',
-                                     type=int,
+                                     type=float,
                                      dest='row_gutter', default=0,
                                      help='Spacing between rows')
 

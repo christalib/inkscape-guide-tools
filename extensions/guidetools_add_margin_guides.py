@@ -57,49 +57,49 @@ class addMarginGuides(inkex.Effect):
         inkex.Effect.__init__(self)
 
         self.arg_parser.add_argument("--tab",
-                                     action="store", type="string",
+                                     type=str,
                                      dest="tab", default="columns",
                                      help="")
 
         # Define string option "--unit"
         self.arg_parser.add_argument('--unit',
-                                     action="store", type="string",
+                                     type=str,
                                      dest="unit", default="mm",
                                      help="The unit of the values")
 
         # Define string option "--target"
         self.arg_parser.add_argument('--target',
-                                     action="store", type="string",
+                                     type=str,
                                      dest="target", default="document",
                                      help="Target: document or selection")
 
         # Define boolean option "--same_margins"
         self.arg_parser.add_argument('--same_margins',
-                                     action='store', type='inkbool',
+                                     type=inkex.Boolean,
                                      dest='same_margins', default=False,
                                      help='Same margins on all four sides')
 
         # Define string option "--top_margin"
         self.arg_parser.add_argument('--top_margin',
-                                     action='store', type='string',
+                                     type=str,
                                      dest='top_margin', default='centered',
                                      help='Top margin, distance from top border')
 
         # Define string option "--right_margin"
         self.arg_parser.add_argument('--right_margin',
-                                     action='store', type='string',
+                                     type=str,
                                      dest='right_margin', default='centered',
                                      help='Right margin, distance from right border')
 
         # Define string option "--bottom_margin"
         self.arg_parser.add_argument('--bottom_margin',
-                                     action='store', type='string',
+                                     type=str,
                                      dest='bottom_margin', default='centered',
                                      help='Bottom margin, distance from bottom border')
 
         # Define string option "--left_margin"
         self.arg_parser.add_argument('--left_margin',
-                                     action='store', type='string',
+                                     type=str,
                                      dest='left_margin', default='centered',
                                      help='Left margin, distance from left border')
 
